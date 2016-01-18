@@ -7,3 +7,4 @@ pet = gets.chomp
     else
      puts "tomato huh"
     end
+
