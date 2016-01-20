@@ -9,14 +9,25 @@
 #   puts "that isnt a number"
 # end
 
-# # - good morning - asks for the time of day, then greets a user appropiately.
+# # - good morning 1.0- asks for the time of day, then greets a user appropiately.
 # puts "what time is it?"
 # answer = gets.chomp.to_i
-
-# case answer
+# case
 #   when answer >= 6 && answer <= 11
 #     puts 'good morning'
 #   when answer >= 12 && answer <= 19
+#     puts 'good afternoon'
+#   else
+#     puts 'good night'
+# end
+
+# # - good morning 1.1- using ranges, WORKS BEST
+# puts "what time is it? use military time"
+# answer = gets.chomp.to_i
+# case answer
+#   when 0..1200
+#     puts 'good morning'
+#   when 1300..1600
 #     puts 'good afternoon'
 #   else
 #     puts 'good night'

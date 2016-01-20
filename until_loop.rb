@@ -79,15 +79,15 @@
 #   puts answer
 # end
 
-# # - we done 1.1 - Puts addition of the numbers.
-# answer = ''
-# until answer == 'done'
-#   puts "tell me some numbers, say done when finished"
-#   answer = gets.chomp.downcase
-#   if answer != 'done'
-#     answer.to_i
-#     puts answer += answer
-#   end
-# end
-# puts 'we done, son'
-
+# - we done 1.1 - Puts addition of the numbers.
+answer = ''
+newnum = 0
+until answer == 'done'
+  puts 'tell me some numbers, say done when finished'
+  answer = gets.chomp
+  if answer != 'done'
+    addition = answer.to_i
+    puts newnum += addition
+  end
+end
+puts 'we done, son'
