@@ -1,3 +1,4 @@
+# - famous -
 puts "are you famous?"
 famous = gets.chomp
 
