@@ -19,7 +19,7 @@
 #   end
 # end
 
-# # - scratchy loop 1,2 - SHORTEST
+# # - scratchy loop 1.2 - SHORTEST
 # dad_answer = ""
 # until dad_answer == "yes"
 #   puts "can we go to scratchy land"
